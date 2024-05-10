@@ -6,7 +6,7 @@ class Ball {
     this.velocity = createVector(this.randomXVelocity, 5);
     this.color = color(195, 168, 255);
     this.offset = 10;
-    this.initialLives = 4;
+    this.initialLives = 5;
     this.lives = 0;
   }
 
